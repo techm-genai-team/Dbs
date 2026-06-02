@@ -1,0 +1,21 @@
+# ── LangGraph ──────────────────────────────────────────────────────────────
+langgraph==0.2.38
+langgraph-checkpoint-sqlite
+
+# ── AWS Bedrock ────────────────────────────────────────────────────────────
+boto3>=1.35.0
+botocore>=1.35.0
+
+# ── Database (SQLite via SQLAlchemy) ───────────────────────────────────────
+sqlalchemy==2.0.36
+
+# ── Config ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+typing-extensions>=4.0.0
+
+# ── FastAPI — NOT needed for terminal testing (commented out) ──────────────
+# fastapi==0.115.5
+# uvicorn[standard]==0.32.1
+# slowapi==0.1.9
+# python-jose[cryptography]==3.3.0
+# psycopg2-binary==2.9.10
